@@ -14,6 +14,7 @@ function App() {
     setIsLoggedIn(false)
   }
 
+  
   useEffect(() =>{
     if (isLoggedIn) {
       navigate("/")
